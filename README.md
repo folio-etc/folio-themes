@@ -24,9 +24,9 @@ workflow (`workflow_dispatch`) builds every theme, generates `themes.json`, and
 publishes them as Release assets. The device downloads from the stable
 `sd-themes-m<manifest>-b<cpfont>` tag.
 
-Requires a `THEMES_REPO_TOKEN` secret: a fine-grained PAT with `contents:read`
-on the firmware repo (the build engine is checked out from there) and
-`contents:write` on this repo.
+No secrets required: the build engine is checked out from the public firmware
+repo with the default `GITHUB_TOKEN`, and releases are published to this same
+repo via the workflow's `contents: write` permission.
 
 ## Installing manually
 
