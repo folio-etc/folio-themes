@@ -165,7 +165,7 @@ fonts:
     builtin: small
   caption-compact:
     bundled:
-      name: Ubuntu
+      family: Ubuntu
       size: 7
   accent-compact:
     builtin: small
