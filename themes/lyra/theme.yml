@@ -53,6 +53,10 @@ buttonHints:
   height: 40
   sideWidth: 30
 
+fontPreview:
+  padding: 12
+  heightPercent: 30
+
 tabBar:
   spacing: 8
   height: 40
@@ -152,11 +156,25 @@ globalMenu:
 
 fonts:
   title:
-    builtin: ui-12
+    bundled:
+      family: Ubuntu
+      size: 12
+    builtin: notoserif-12
   heading:
-    builtin: ui-12
+    bundled:
+      family: Ubuntu
+      size: 12
+    builtin: notoserif-12
   body:
-    builtin: ui-10
+    bundled:
+      family: Ubuntu
+      size: 10
+    builtin: literata-10
+  body-large:
+    bundled:
+      family: Ubuntu
+      size: 12
+    builtin: notoserif-12
   caption:
     builtin: small
   accent:
